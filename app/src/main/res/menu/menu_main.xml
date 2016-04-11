@@ -1,0 +1,35 @@
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--tools:context="firenew.aleemfirnas21.mapproject.MainActivity" >-->
+    <!--<item android:id="@+id/action_settings"-->
+        <!--android:title="@string/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="never" />-->
+<!--</menu>-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mapTypeNormal"
+        android:title="Normal" />
+    <item
+        android:id="@+id/mapTypeSatellite"
+        android:title="Satellite" />
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="Terrain" />
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="Hybrid" />
+    <item
+        android:id="@+id/mapTypeNone"
+        android:title="None" />
+
+
+    <item android:id="@+id/currentLocation"
+        android:title="@string/current_location"
+        app:showAsAction="always"
+        android:onClick="showCurrentLocation"/>
+
+</menu>
